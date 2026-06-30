@@ -1,0 +1,262 @@
+[
+  {
+    "postalCode": "75001",
+    "city": "Paris",
+    "district": "Paris",
+    "state": "Ile-de-France",
+    "country": "FR",
+    "areas": [
+      "Paris Central",
+      "Paris Heights",
+      "Ile-de-France Gardens"
+    ],
+    "weight": 5
+  },
+  {
+    "postalCode": "75012",
+    "city": "Lyon",
+    "district": "Rhone",
+    "state": "Auvergne-Rhone-Alpes",
+    "country": "FR",
+    "areas": [
+      "Lyon Central",
+      "Rhone Heights",
+      "Auvergne-Rhone-Alpes Gardens"
+    ],
+    "weight": 4
+  },
+  {
+    "postalCode": "75023",
+    "city": "Marseille",
+    "district": "Bouches-du-Rhone",
+    "state": "Provence-Alpes-Cote d'Azur",
+    "country": "FR",
+    "areas": [
+      "Marseille Central",
+      "Bouches-du-Rhone Heights",
+      "Provence-Alpes-Cote Gardens"
+    ],
+    "weight": 3
+  },
+  {
+    "postalCode": "75034",
+    "city": "Toulouse",
+    "district": "Haute-Garonne",
+    "state": "Occitanie",
+    "country": "FR",
+    "areas": [
+      "Toulouse Central",
+      "Haute-Garonne Heights",
+      "Occitanie Gardens"
+    ],
+    "weight": 2
+  },
+  {
+    "postalCode": "75045",
+    "city": "Nice",
+    "district": "Alpes-Maritimes",
+    "state": "Provence-Alpes-Cote d'Azur",
+    "country": "FR",
+    "areas": [
+      "Nice Central",
+      "Alpes-Maritimes Heights",
+      "Provence-Alpes-Cote Gardens"
+    ],
+    "weight": 5
+  },
+  {
+    "postalCode": "75056",
+    "city": "Nantes",
+    "district": "Loire-Atlantique",
+    "state": "Pays de la Loire",
+    "country": "FR",
+    "areas": [
+      "Nantes Central",
+      "Loire-Atlantique Heights",
+      "Pays Gardens"
+    ],
+    "weight": 4
+  },
+  {
+    "postalCode": "75067",
+    "city": "Strasbourg",
+    "district": "Bas-Rhin",
+    "state": "Grand Est",
+    "country": "FR",
+    "areas": [
+      "Strasbourg Central",
+      "Bas-Rhin Heights",
+      "Grand Gardens"
+    ],
+    "weight": 3
+  },
+  {
+    "postalCode": "75078",
+    "city": "Montpellier",
+    "district": "Herault",
+    "state": "Occitanie",
+    "country": "FR",
+    "areas": [
+      "Montpellier Central",
+      "Herault Heights",
+      "Occitanie Gardens"
+    ],
+    "weight": 2
+  },
+  {
+    "postalCode": "75089",
+    "city": "Bordeaux",
+    "district": "Gironde",
+    "state": "Nouvelle-Aquitaine",
+    "country": "FR",
+    "areas": [
+      "Bordeaux Central",
+      "Gironde Heights",
+      "Nouvelle-Aquitaine Gardens"
+    ],
+    "weight": 5
+  },
+  {
+    "postalCode": "75100",
+    "city": "Lille",
+    "district": "Nord",
+    "state": "Hauts-de-France",
+    "country": "FR",
+    "areas": [
+      "Lille Central",
+      "Nord Heights",
+      "Hauts-de-France Gardens"
+    ],
+    "weight": 4
+  },
+  {
+    "postalCode": "75111",
+    "city": "Rennes",
+    "district": "Ille-et-Vilaine",
+    "state": "Brittany",
+    "country": "FR",
+    "areas": [
+      "Rennes Central",
+      "Ille-et-Vilaine Heights",
+      "Brittany Gardens"
+    ],
+    "weight": 3
+  },
+  {
+    "postalCode": "75122",
+    "city": "Reims",
+    "district": "Marne",
+    "state": "Grand Est",
+    "country": "FR",
+    "areas": [
+      "Reims Central",
+      "Marne Heights",
+      "Grand Gardens"
+    ],
+    "weight": 2
+  },
+  {
+    "postalCode": "75133",
+    "city": "Le Havre",
+    "district": "Seine-Maritime",
+    "state": "Normandy",
+    "country": "FR",
+    "areas": [
+      "Le Havre Central",
+      "Seine-Maritime Heights",
+      "Normandy Gardens"
+    ],
+    "weight": 5
+  },
+  {
+    "postalCode": "75144",
+    "city": "Saint-Etienne",
+    "district": "Loire",
+    "state": "Auvergne-Rhone-Alpes",
+    "country": "FR",
+    "areas": [
+      "Saint-Etienne Central",
+      "Loire Heights",
+      "Auvergne-Rhone-Alpes Gardens"
+    ],
+    "weight": 4
+  },
+  {
+    "postalCode": "75155",
+    "city": "Toulon",
+    "district": "Var",
+    "state": "Provence-Alpes-Cote d'Azur",
+    "country": "FR",
+    "areas": [
+      "Toulon Central",
+      "Var Heights",
+      "Provence-Alpes-Cote Gardens"
+    ],
+    "weight": 3
+  },
+  {
+    "postalCode": "75166",
+    "city": "Grenoble",
+    "district": "Isere",
+    "state": "Auvergne-Rhone-Alpes",
+    "country": "FR",
+    "areas": [
+      "Grenoble Central",
+      "Isere Heights",
+      "Auvergne-Rhone-Alpes Gardens"
+    ],
+    "weight": 2
+  },
+  {
+    "postalCode": "75177",
+    "city": "Dijon",
+    "district": "Cote-d'Or",
+    "state": "Bourgogne-Franche-Comte",
+    "country": "FR",
+    "areas": [
+      "Dijon Central",
+      "Cote-d'Or Heights",
+      "Bourgogne-Franche-Comte Gardens"
+    ],
+    "weight": 5
+  },
+  {
+    "postalCode": "75188",
+    "city": "Angers",
+    "district": "Maine-et-Loire",
+    "state": "Pays de la Loire",
+    "country": "FR",
+    "areas": [
+      "Angers Central",
+      "Maine-et-Loire Heights",
+      "Pays Gardens"
+    ],
+    "weight": 4
+  },
+  {
+    "postalCode": "75199",
+    "city": "Nimes",
+    "district": "Gard",
+    "state": "Occitanie",
+    "country": "FR",
+    "areas": [
+      "Nimes Central",
+      "Gard Heights",
+      "Occitanie Gardens"
+    ],
+    "weight": 3
+  },
+  {
+    "postalCode": "75210",
+    "city": "Clermont-Ferrand",
+    "district": "Puy-de-Dome",
+    "state": "Auvergne-Rhone-Alpes",
+    "country": "FR",
+    "areas": [
+      "Clermont-Ferrand Central",
+      "Puy-de-Dome Heights",
+      "Auvergne-Rhone-Alpes Gardens"
+    ],
+    "weight": 2
+  }
+]

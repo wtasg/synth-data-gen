@@ -1,0 +1,14 @@
+FROM denoland/deno:2.3.3
+
+WORKDIR /app
+
+COPY deno.json deno.lock ./
+COPY src ./src
+COPY data ./data
+COPY .env ./.env
+
+RUN deno cache src/server/main.ts
+
+EXPOSE 16010
+
+CMD ["deno", "task", "start"]

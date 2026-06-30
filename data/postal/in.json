@@ -1,0 +1,652 @@
+[
+  {
+    "postalCode": "560001",
+    "city": "Bengaluru",
+    "district": "Bengaluru Urban",
+    "state": "Karnataka",
+    "country": "IN",
+    "areas": [
+      "Bengaluru Central",
+      "Bengaluru Heights",
+      "Karnataka Gardens"
+    ],
+    "weight": 5
+  },
+  {
+    "postalCode": "560037",
+    "city": "Bengaluru",
+    "district": "Bengaluru Urban",
+    "state": "Karnataka",
+    "country": "IN",
+    "areas": [
+      "Bengaluru Central",
+      "Bengaluru Heights",
+      "Karnataka Gardens"
+    ],
+    "weight": 4
+  },
+  {
+    "postalCode": "110001",
+    "city": "New Delhi",
+    "district": "New Delhi",
+    "state": "Delhi",
+    "country": "IN",
+    "areas": [
+      "New Delhi Central",
+      "New Delhi Heights",
+      "Delhi Gardens"
+    ],
+    "weight": 3
+  },
+  {
+    "postalCode": "380001",
+    "city": "Mysuru",
+    "district": "Mysuru",
+    "state": "Karnataka",
+    "country": "IN",
+    "areas": [
+      "Mysuru Central",
+      "Mysuru Heights",
+      "Karnataka Gardens"
+    ],
+    "weight": 2
+  },
+  {
+    "postalCode": "400001",
+    "city": "Hubballi",
+    "district": "Dharwad",
+    "state": "Karnataka",
+    "country": "IN",
+    "areas": [
+      "Hubballi Central",
+      "Dharwad Heights",
+      "Karnataka Gardens"
+    ],
+    "weight": 5
+  },
+  {
+    "postalCode": "500001",
+    "city": "Mangaluru",
+    "district": "Dakshina Kannada",
+    "state": "Karnataka",
+    "country": "IN",
+    "areas": [
+      "Mangaluru Central",
+      "Dakshina Kannada Heights",
+      "Karnataka Gardens"
+    ],
+    "weight": 4
+  },
+  {
+    "postalCode": "560101",
+    "city": "Mumbai",
+    "district": "Mumbai",
+    "state": "Maharashtra",
+    "country": "IN",
+    "areas": [
+      "Mumbai Central",
+      "Mumbai Heights",
+      "Maharashtra Gardens"
+    ],
+    "weight": 3
+  },
+  {
+    "postalCode": "600001",
+    "city": "Pune",
+    "district": "Pune",
+    "state": "Maharashtra",
+    "country": "IN",
+    "areas": [
+      "Pune Central",
+      "Pune Heights",
+      "Maharashtra Gardens"
+    ],
+    "weight": 2
+  },
+  {
+    "postalCode": "682001",
+    "city": "Nagpur",
+    "district": "Nagpur",
+    "state": "Maharashtra",
+    "country": "IN",
+    "areas": [
+      "Nagpur Central",
+      "Nagpur Heights",
+      "Maharashtra Gardens"
+    ],
+    "weight": 5
+  },
+  {
+    "postalCode": "700001",
+    "city": "Nashik",
+    "district": "Nashik",
+    "state": "Maharashtra",
+    "country": "IN",
+    "areas": [
+      "Nashik Central",
+      "Nashik Heights",
+      "Maharashtra Gardens"
+    ],
+    "weight": 4
+  },
+  {
+    "postalCode": "110008",
+    "city": "Chennai",
+    "district": "Chennai",
+    "state": "Tamil Nadu",
+    "country": "IN",
+    "areas": [
+      "Chennai Central",
+      "Chennai Heights",
+      "Tamil Gardens"
+    ],
+    "weight": 3
+  },
+  {
+    "postalCode": "226008",
+    "city": "Coimbatore",
+    "district": "Coimbatore",
+    "state": "Tamil Nadu",
+    "country": "IN",
+    "areas": [
+      "Coimbatore Central",
+      "Coimbatore Heights",
+      "Tamil Gardens"
+    ],
+    "weight": 2
+  },
+  {
+    "postalCode": "302008",
+    "city": "Madurai",
+    "district": "Madurai",
+    "state": "Tamil Nadu",
+    "country": "IN",
+    "areas": [
+      "Madurai Central",
+      "Madurai Heights",
+      "Tamil Gardens"
+    ],
+    "weight": 5
+  },
+  {
+    "postalCode": "380008",
+    "city": "Hyderabad",
+    "district": "Hyderabad",
+    "state": "Telangana",
+    "country": "IN",
+    "areas": [
+      "Hyderabad Central",
+      "Hyderabad Heights",
+      "Telangana Gardens"
+    ],
+    "weight": 4
+  },
+  {
+    "postalCode": "400008",
+    "city": "Warangal",
+    "district": "Hanamkonda",
+    "state": "Telangana",
+    "country": "IN",
+    "areas": [
+      "Warangal Central",
+      "Hanamkonda Heights",
+      "Telangana Gardens"
+    ],
+    "weight": 3
+  },
+  {
+    "postalCode": "500008",
+    "city": "Ahmedabad",
+    "district": "Ahmedabad",
+    "state": "Gujarat",
+    "country": "IN",
+    "areas": [
+      "Ahmedabad Central",
+      "Ahmedabad Heights",
+      "Gujarat Gardens"
+    ],
+    "weight": 2
+  },
+  {
+    "postalCode": "560108",
+    "city": "Surat",
+    "district": "Surat",
+    "state": "Gujarat",
+    "country": "IN",
+    "areas": [
+      "Surat Central",
+      "Surat Heights",
+      "Gujarat Gardens"
+    ],
+    "weight": 5
+  },
+  {
+    "postalCode": "600008",
+    "city": "Vadodara",
+    "district": "Vadodara",
+    "state": "Gujarat",
+    "country": "IN",
+    "areas": [
+      "Vadodara Central",
+      "Vadodara Heights",
+      "Gujarat Gardens"
+    ],
+    "weight": 4
+  },
+  {
+    "postalCode": "682008",
+    "city": "Jaipur",
+    "district": "Jaipur",
+    "state": "Rajasthan",
+    "country": "IN",
+    "areas": [
+      "Jaipur Central",
+      "Jaipur Heights",
+      "Rajasthan Gardens"
+    ],
+    "weight": 3
+  },
+  {
+    "postalCode": "700008",
+    "city": "Jodhpur",
+    "district": "Jodhpur",
+    "state": "Rajasthan",
+    "country": "IN",
+    "areas": [
+      "Jodhpur Central",
+      "Jodhpur Heights",
+      "Rajasthan Gardens"
+    ],
+    "weight": 2
+  },
+  {
+    "postalCode": "110015",
+    "city": "Udaipur",
+    "district": "Udaipur",
+    "state": "Rajasthan",
+    "country": "IN",
+    "areas": [
+      "Udaipur Central",
+      "Udaipur Heights",
+      "Rajasthan Gardens"
+    ],
+    "weight": 5
+  },
+  {
+    "postalCode": "226015",
+    "city": "Lucknow",
+    "district": "Lucknow",
+    "state": "Uttar Pradesh",
+    "country": "IN",
+    "areas": [
+      "Lucknow Central",
+      "Lucknow Heights",
+      "Uttar Gardens"
+    ],
+    "weight": 4
+  },
+  {
+    "postalCode": "302015",
+    "city": "Kanpur",
+    "district": "Kanpur Nagar",
+    "state": "Uttar Pradesh",
+    "country": "IN",
+    "areas": [
+      "Kanpur Central",
+      "Kanpur Nagar Heights",
+      "Uttar Gardens"
+    ],
+    "weight": 3
+  },
+  {
+    "postalCode": "380015",
+    "city": "Varanasi",
+    "district": "Varanasi",
+    "state": "Uttar Pradesh",
+    "country": "IN",
+    "areas": [
+      "Varanasi Central",
+      "Varanasi Heights",
+      "Uttar Gardens"
+    ],
+    "weight": 2
+  },
+  {
+    "postalCode": "400015",
+    "city": "Noida",
+    "district": "Gautam Buddha Nagar",
+    "state": "Uttar Pradesh",
+    "country": "IN",
+    "areas": [
+      "Noida Central",
+      "Gautam Buddha Nagar Heights",
+      "Uttar Gardens"
+    ],
+    "weight": 5
+  },
+  {
+    "postalCode": "500015",
+    "city": "Kolkata",
+    "district": "Kolkata",
+    "state": "West Bengal",
+    "country": "IN",
+    "areas": [
+      "Kolkata Central",
+      "Kolkata Heights",
+      "West Gardens"
+    ],
+    "weight": 4
+  },
+  {
+    "postalCode": "560115",
+    "city": "Howrah",
+    "district": "Howrah",
+    "state": "West Bengal",
+    "country": "IN",
+    "areas": [
+      "Howrah Central",
+      "Howrah Heights",
+      "West Gardens"
+    ],
+    "weight": 3
+  },
+  {
+    "postalCode": "600015",
+    "city": "Siliguri",
+    "district": "Darjeeling",
+    "state": "West Bengal",
+    "country": "IN",
+    "areas": [
+      "Siliguri Central",
+      "Darjeeling Heights",
+      "West Gardens"
+    ],
+    "weight": 2
+  },
+  {
+    "postalCode": "682015",
+    "city": "Bhopal",
+    "district": "Bhopal",
+    "state": "Madhya Pradesh",
+    "country": "IN",
+    "areas": [
+      "Bhopal Central",
+      "Bhopal Heights",
+      "Madhya Gardens"
+    ],
+    "weight": 5
+  },
+  {
+    "postalCode": "700015",
+    "city": "Indore",
+    "district": "Indore",
+    "state": "Madhya Pradesh",
+    "country": "IN",
+    "areas": [
+      "Indore Central",
+      "Indore Heights",
+      "Madhya Gardens"
+    ],
+    "weight": 4
+  },
+  {
+    "postalCode": "110022",
+    "city": "Gwalior",
+    "district": "Gwalior",
+    "state": "Madhya Pradesh",
+    "country": "IN",
+    "areas": [
+      "Gwalior Central",
+      "Gwalior Heights",
+      "Madhya Gardens"
+    ],
+    "weight": 3
+  },
+  {
+    "postalCode": "226022",
+    "city": "Kochi",
+    "district": "Ernakulam",
+    "state": "Kerala",
+    "country": "IN",
+    "areas": [
+      "Kochi Central",
+      "Ernakulam Heights",
+      "Kerala Gardens"
+    ],
+    "weight": 2
+  },
+  {
+    "postalCode": "302022",
+    "city": "Thiruvananthapuram",
+    "district": "Thiruvananthapuram",
+    "state": "Kerala",
+    "country": "IN",
+    "areas": [
+      "Thiruvananthapuram Central",
+      "Thiruvananthapuram Heights",
+      "Kerala Gardens"
+    ],
+    "weight": 5
+  },
+  {
+    "postalCode": "380022",
+    "city": "Kozhikode",
+    "district": "Kozhikode",
+    "state": "Kerala",
+    "country": "IN",
+    "areas": [
+      "Kozhikode Central",
+      "Kozhikode Heights",
+      "Kerala Gardens"
+    ],
+    "weight": 4
+  },
+  {
+    "postalCode": "400022",
+    "city": "Bhubaneswar",
+    "district": "Khordha",
+    "state": "Odisha",
+    "country": "IN",
+    "areas": [
+      "Bhubaneswar Central",
+      "Khordha Heights",
+      "Odisha Gardens"
+    ],
+    "weight": 3
+  },
+  {
+    "postalCode": "500022",
+    "city": "Cuttack",
+    "district": "Cuttack",
+    "state": "Odisha",
+    "country": "IN",
+    "areas": [
+      "Cuttack Central",
+      "Cuttack Heights",
+      "Odisha Gardens"
+    ],
+    "weight": 2
+  },
+  {
+    "postalCode": "560122",
+    "city": "Patna",
+    "district": "Patna",
+    "state": "Bihar",
+    "country": "IN",
+    "areas": [
+      "Patna Central",
+      "Patna Heights",
+      "Bihar Gardens"
+    ],
+    "weight": 5
+  },
+  {
+    "postalCode": "600022",
+    "city": "Gaya",
+    "district": "Gaya",
+    "state": "Bihar",
+    "country": "IN",
+    "areas": [
+      "Gaya Central",
+      "Gaya Heights",
+      "Bihar Gardens"
+    ],
+    "weight": 4
+  },
+  {
+    "postalCode": "682022",
+    "city": "Ranchi",
+    "district": "Ranchi",
+    "state": "Jharkhand",
+    "country": "IN",
+    "areas": [
+      "Ranchi Central",
+      "Ranchi Heights",
+      "Jharkhand Gardens"
+    ],
+    "weight": 3
+  },
+  {
+    "postalCode": "700022",
+    "city": "Jamshedpur",
+    "district": "East Singhbhum",
+    "state": "Jharkhand",
+    "country": "IN",
+    "areas": [
+      "Jamshedpur Central",
+      "East Singhbhum Heights",
+      "Jharkhand Gardens"
+    ],
+    "weight": 2
+  },
+  {
+    "postalCode": "110029",
+    "city": "Chandigarh",
+    "district": "Chandigarh",
+    "state": "Chandigarh",
+    "country": "IN",
+    "areas": [
+      "Chandigarh Central",
+      "Chandigarh Heights",
+      "Chandigarh Gardens"
+    ],
+    "weight": 5
+  },
+  {
+    "postalCode": "226029",
+    "city": "Amritsar",
+    "district": "Amritsar",
+    "state": "Punjab",
+    "country": "IN",
+    "areas": [
+      "Amritsar Central",
+      "Amritsar Heights",
+      "Punjab Gardens"
+    ],
+    "weight": 4
+  },
+  {
+    "postalCode": "302029",
+    "city": "Ludhiana",
+    "district": "Ludhiana",
+    "state": "Punjab",
+    "country": "IN",
+    "areas": [
+      "Ludhiana Central",
+      "Ludhiana Heights",
+      "Punjab Gardens"
+    ],
+    "weight": 3
+  },
+  {
+    "postalCode": "380029",
+    "city": "Dehradun",
+    "district": "Dehradun",
+    "state": "Uttarakhand",
+    "country": "IN",
+    "areas": [
+      "Dehradun Central",
+      "Dehradun Heights",
+      "Uttarakhand Gardens"
+    ],
+    "weight": 2
+  },
+  {
+    "postalCode": "400029",
+    "city": "Shimla",
+    "district": "Shimla",
+    "state": "Himachal Pradesh",
+    "country": "IN",
+    "areas": [
+      "Shimla Central",
+      "Shimla Heights",
+      "Himachal Gardens"
+    ],
+    "weight": 5
+  },
+  {
+    "postalCode": "500029",
+    "city": "Panaji",
+    "district": "North Goa",
+    "state": "Goa",
+    "country": "IN",
+    "areas": [
+      "Panaji Central",
+      "North Goa Heights",
+      "Goa Gardens"
+    ],
+    "weight": 4
+  },
+  {
+    "postalCode": "560129",
+    "city": "Raipur",
+    "district": "Raipur",
+    "state": "Chhattisgarh",
+    "country": "IN",
+    "areas": [
+      "Raipur Central",
+      "Raipur Heights",
+      "Chhattisgarh Gardens"
+    ],
+    "weight": 3
+  },
+  {
+    "postalCode": "600029",
+    "city": "Vijayawada",
+    "district": "NTR",
+    "state": "Andhra Pradesh",
+    "country": "IN",
+    "areas": [
+      "Vijayawada Central",
+      "NTR Heights",
+      "Andhra Gardens"
+    ],
+    "weight": 2
+  },
+  {
+    "postalCode": "682029",
+    "city": "Visakhapatnam",
+    "district": "Visakhapatnam",
+    "state": "Andhra Pradesh",
+    "country": "IN",
+    "areas": [
+      "Visakhapatnam Central",
+      "Visakhapatnam Heights",
+      "Andhra Gardens"
+    ],
+    "weight": 5
+  },
+  {
+    "postalCode": "700029",
+    "city": "Guwahati",
+    "district": "Kamrup Metropolitan",
+    "state": "Assam",
+    "country": "IN",
+    "areas": [
+      "Guwahati Central",
+      "Kamrup Metropolitan Heights",
+      "Assam Gardens"
+    ],
+    "weight": 4
+  }
+]

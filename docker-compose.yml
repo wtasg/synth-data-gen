@@ -1,0 +1,37 @@
+services:
+  server:
+    build:
+      context: .
+      dockerfile: Dockerfile.server
+    env_file:
+      - .env
+    environment:
+      - MONGODB_URL=mongodb://mongo:27017/faked
+    depends_on:
+      - mongo
+    ports:
+      - "${SERVER_PORT}:${SERVER_PORT}"
+
+  client:
+    build:
+      context: .
+      dockerfile: src/client/Dockerfile
+    env_file:
+      - .env
+    environment:
+      API_PROXY_HOST: server
+    depends_on:
+      - server
+    ports:
+      - "${CLIENT_PORT}:${CLIENT_PORT}"
+
+  mongo:
+    image: mongo:6
+    restart: unless-stopped
+    volumes:
+      - mongo-data:/data/db
+    ports:
+      - "27017:27017"
+
+volumes:
+  mongo-data:

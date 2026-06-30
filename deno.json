@@ -1,0 +1,18 @@
+{
+    "tasks": {
+        "dev": "deno run --watch --allow-net --allow-read --allow-write=data --allow-env src/server/main.ts",
+        "start": "deno run --allow-net --allow-read --allow-write=data --allow-env src/server/main.ts",
+        "test": "deno test tests --allow-read --allow-write=data --allow-env",
+        "lint:server": "npm run lint",
+        "client:dev": "sh scripts/dev-client.sh",
+        "client:build": "sh scripts/build-client.sh",
+        "client:test": "sh scripts/test-client.sh",
+        "client:lint": "sh scripts/lint-client.sh",
+        "lint": "sh scripts/lint-all.sh",
+        "dev:all": "sh scripts/dev-all.sh"
+    },
+    "fmt": {
+        "semiColons": true,
+        "singleQuote": false
+    }
+}

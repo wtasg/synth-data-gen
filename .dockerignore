@@ -1,0 +1,6 @@
+.git
+node_modules
+src/client/node_modules
+src/client/dist
+*.tsbuildinfo
+dist

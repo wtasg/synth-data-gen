@@ -1,0 +1,652 @@
+[
+  {
+    "postalCode": "10001",
+    "city": "New York",
+    "district": "New York County",
+    "state": "New York",
+    "country": "US",
+    "areas": [
+      "New York Central",
+      "New York Heights",
+      "New Gardens"
+    ],
+    "weight": 5
+  },
+  {
+    "postalCode": "30301",
+    "city": "Atlanta",
+    "district": "Fulton County",
+    "state": "Georgia",
+    "country": "US",
+    "areas": [
+      "Atlanta Central",
+      "Fulton Heights",
+      "Georgia Gardens"
+    ],
+    "weight": 4
+  },
+  {
+    "postalCode": "60601",
+    "city": "Chicago",
+    "district": "Cook County",
+    "state": "Illinois",
+    "country": "US",
+    "areas": [
+      "Chicago Central",
+      "Cook Heights",
+      "Illinois Gardens"
+    ],
+    "weight": 3
+  },
+  {
+    "postalCode": "10520",
+    "city": "Los Angeles",
+    "district": "Los Angeles County",
+    "state": "California",
+    "country": "US",
+    "areas": [
+      "Los Angeles Central",
+      "Los Angeles Heights",
+      "California Gardens"
+    ],
+    "weight": 2
+  },
+  {
+    "postalCode": "10693",
+    "city": "San Francisco",
+    "district": "San Francisco County",
+    "state": "California",
+    "country": "US",
+    "areas": [
+      "San Francisco Central",
+      "San Francisco Heights",
+      "California Gardens"
+    ],
+    "weight": 5
+  },
+  {
+    "postalCode": "10866",
+    "city": "Seattle",
+    "district": "King County",
+    "state": "Washington",
+    "country": "US",
+    "areas": [
+      "Seattle Central",
+      "King Heights",
+      "Washington Gardens"
+    ],
+    "weight": 4
+  },
+  {
+    "postalCode": "11039",
+    "city": "Boston",
+    "district": "Suffolk County",
+    "state": "Massachusetts",
+    "country": "US",
+    "areas": [
+      "Boston Central",
+      "Suffolk Heights",
+      "Massachusetts Gardens"
+    ],
+    "weight": 3
+  },
+  {
+    "postalCode": "11212",
+    "city": "Austin",
+    "district": "Travis County",
+    "state": "Texas",
+    "country": "US",
+    "areas": [
+      "Austin Central",
+      "Travis Heights",
+      "Texas Gardens"
+    ],
+    "weight": 2
+  },
+  {
+    "postalCode": "11385",
+    "city": "Dallas",
+    "district": "Dallas County",
+    "state": "Texas",
+    "country": "US",
+    "areas": [
+      "Dallas Central",
+      "Dallas Heights",
+      "Texas Gardens"
+    ],
+    "weight": 5
+  },
+  {
+    "postalCode": "11558",
+    "city": "Houston",
+    "district": "Harris County",
+    "state": "Texas",
+    "country": "US",
+    "areas": [
+      "Houston Central",
+      "Harris Heights",
+      "Texas Gardens"
+    ],
+    "weight": 4
+  },
+  {
+    "postalCode": "11731",
+    "city": "Miami",
+    "district": "Miami-Dade County",
+    "state": "Florida",
+    "country": "US",
+    "areas": [
+      "Miami Central",
+      "Miami-Dade Heights",
+      "Florida Gardens"
+    ],
+    "weight": 3
+  },
+  {
+    "postalCode": "11904",
+    "city": "Orlando",
+    "district": "Orange County",
+    "state": "Florida",
+    "country": "US",
+    "areas": [
+      "Orlando Central",
+      "Orange Heights",
+      "Florida Gardens"
+    ],
+    "weight": 2
+  },
+  {
+    "postalCode": "12077",
+    "city": "Phoenix",
+    "district": "Maricopa County",
+    "state": "Arizona",
+    "country": "US",
+    "areas": [
+      "Phoenix Central",
+      "Maricopa Heights",
+      "Arizona Gardens"
+    ],
+    "weight": 5
+  },
+  {
+    "postalCode": "12250",
+    "city": "Denver",
+    "district": "Denver County",
+    "state": "Colorado",
+    "country": "US",
+    "areas": [
+      "Denver Central",
+      "Denver Heights",
+      "Colorado Gardens"
+    ],
+    "weight": 4
+  },
+  {
+    "postalCode": "12423",
+    "city": "Portland",
+    "district": "Multnomah County",
+    "state": "Oregon",
+    "country": "US",
+    "areas": [
+      "Portland Central",
+      "Multnomah Heights",
+      "Oregon Gardens"
+    ],
+    "weight": 3
+  },
+  {
+    "postalCode": "12596",
+    "city": "Las Vegas",
+    "district": "Clark County",
+    "state": "Nevada",
+    "country": "US",
+    "areas": [
+      "Las Vegas Central",
+      "Clark Heights",
+      "Nevada Gardens"
+    ],
+    "weight": 2
+  },
+  {
+    "postalCode": "12769",
+    "city": "Philadelphia",
+    "district": "Philadelphia County",
+    "state": "Pennsylvania",
+    "country": "US",
+    "areas": [
+      "Philadelphia Central",
+      "Philadelphia Heights",
+      "Pennsylvania Gardens"
+    ],
+    "weight": 5
+  },
+  {
+    "postalCode": "12942",
+    "city": "Pittsburgh",
+    "district": "Allegheny County",
+    "state": "Pennsylvania",
+    "country": "US",
+    "areas": [
+      "Pittsburgh Central",
+      "Allegheny Heights",
+      "Pennsylvania Gardens"
+    ],
+    "weight": 4
+  },
+  {
+    "postalCode": "13115",
+    "city": "Detroit",
+    "district": "Wayne County",
+    "state": "Michigan",
+    "country": "US",
+    "areas": [
+      "Detroit Central",
+      "Wayne Heights",
+      "Michigan Gardens"
+    ],
+    "weight": 3
+  },
+  {
+    "postalCode": "13288",
+    "city": "Minneapolis",
+    "district": "Hennepin County",
+    "state": "Minnesota",
+    "country": "US",
+    "areas": [
+      "Minneapolis Central",
+      "Hennepin Heights",
+      "Minnesota Gardens"
+    ],
+    "weight": 2
+  },
+  {
+    "postalCode": "13461",
+    "city": "Nashville",
+    "district": "Davidson County",
+    "state": "Tennessee",
+    "country": "US",
+    "areas": [
+      "Nashville Central",
+      "Davidson Heights",
+      "Tennessee Gardens"
+    ],
+    "weight": 5
+  },
+  {
+    "postalCode": "13634",
+    "city": "Charlotte",
+    "district": "Mecklenburg County",
+    "state": "North Carolina",
+    "country": "US",
+    "areas": [
+      "Charlotte Central",
+      "Mecklenburg Heights",
+      "North Gardens"
+    ],
+    "weight": 4
+  },
+  {
+    "postalCode": "13807",
+    "city": "Raleigh",
+    "district": "Wake County",
+    "state": "North Carolina",
+    "country": "US",
+    "areas": [
+      "Raleigh Central",
+      "Wake Heights",
+      "North Gardens"
+    ],
+    "weight": 3
+  },
+  {
+    "postalCode": "13980",
+    "city": "Columbus",
+    "district": "Franklin County",
+    "state": "Ohio",
+    "country": "US",
+    "areas": [
+      "Columbus Central",
+      "Franklin Heights",
+      "Ohio Gardens"
+    ],
+    "weight": 2
+  },
+  {
+    "postalCode": "14153",
+    "city": "Cleveland",
+    "district": "Cuyahoga County",
+    "state": "Ohio",
+    "country": "US",
+    "areas": [
+      "Cleveland Central",
+      "Cuyahoga Heights",
+      "Ohio Gardens"
+    ],
+    "weight": 5
+  },
+  {
+    "postalCode": "14326",
+    "city": "Cincinnati",
+    "district": "Hamilton County",
+    "state": "Ohio",
+    "country": "US",
+    "areas": [
+      "Cincinnati Central",
+      "Hamilton Heights",
+      "Ohio Gardens"
+    ],
+    "weight": 4
+  },
+  {
+    "postalCode": "14499",
+    "city": "Kansas City",
+    "district": "Jackson County",
+    "state": "Missouri",
+    "country": "US",
+    "areas": [
+      "Kansas City Central",
+      "Jackson Heights",
+      "Missouri Gardens"
+    ],
+    "weight": 3
+  },
+  {
+    "postalCode": "14672",
+    "city": "St. Louis",
+    "district": "St. Louis County",
+    "state": "Missouri",
+    "country": "US",
+    "areas": [
+      "St. Louis Central",
+      "St. Louis Heights",
+      "Missouri Gardens"
+    ],
+    "weight": 2
+  },
+  {
+    "postalCode": "14845",
+    "city": "New Orleans",
+    "district": "Orleans Parish",
+    "state": "Louisiana",
+    "country": "US",
+    "areas": [
+      "New Orleans Central",
+      "Orleans Parish Heights",
+      "Louisiana Gardens"
+    ],
+    "weight": 5
+  },
+  {
+    "postalCode": "15018",
+    "city": "Salt Lake City",
+    "district": "Salt Lake County",
+    "state": "Utah",
+    "country": "US",
+    "areas": [
+      "Salt Lake City Central",
+      "Salt Lake Heights",
+      "Utah Gardens"
+    ],
+    "weight": 4
+  },
+  {
+    "postalCode": "15191",
+    "city": "Boise",
+    "district": "Ada County",
+    "state": "Idaho",
+    "country": "US",
+    "areas": [
+      "Boise Central",
+      "Ada Heights",
+      "Idaho Gardens"
+    ],
+    "weight": 3
+  },
+  {
+    "postalCode": "15364",
+    "city": "Milwaukee",
+    "district": "Milwaukee County",
+    "state": "Wisconsin",
+    "country": "US",
+    "areas": [
+      "Milwaukee Central",
+      "Milwaukee Heights",
+      "Wisconsin Gardens"
+    ],
+    "weight": 2
+  },
+  {
+    "postalCode": "15537",
+    "city": "Madison",
+    "district": "Dane County",
+    "state": "Wisconsin",
+    "country": "US",
+    "areas": [
+      "Madison Central",
+      "Dane Heights",
+      "Wisconsin Gardens"
+    ],
+    "weight": 5
+  },
+  {
+    "postalCode": "15710",
+    "city": "Indianapolis",
+    "district": "Marion County",
+    "state": "Indiana",
+    "country": "US",
+    "areas": [
+      "Indianapolis Central",
+      "Marion Heights",
+      "Indiana Gardens"
+    ],
+    "weight": 4
+  },
+  {
+    "postalCode": "15883",
+    "city": "Louisville",
+    "district": "Jefferson County",
+    "state": "Kentucky",
+    "country": "US",
+    "areas": [
+      "Louisville Central",
+      "Jefferson Heights",
+      "Kentucky Gardens"
+    ],
+    "weight": 3
+  },
+  {
+    "postalCode": "16056",
+    "city": "Richmond",
+    "district": "Richmond County",
+    "state": "Virginia",
+    "country": "US",
+    "areas": [
+      "Richmond Central",
+      "Richmond Heights",
+      "Virginia Gardens"
+    ],
+    "weight": 2
+  },
+  {
+    "postalCode": "16229",
+    "city": "Norfolk",
+    "district": "Norfolk County",
+    "state": "Virginia",
+    "country": "US",
+    "areas": [
+      "Norfolk Central",
+      "Norfolk Heights",
+      "Virginia Gardens"
+    ],
+    "weight": 5
+  },
+  {
+    "postalCode": "16402",
+    "city": "Tampa",
+    "district": "Hillsborough County",
+    "state": "Florida",
+    "country": "US",
+    "areas": [
+      "Tampa Central",
+      "Hillsborough Heights",
+      "Florida Gardens"
+    ],
+    "weight": 4
+  },
+  {
+    "postalCode": "16575",
+    "city": "Sacramento",
+    "district": "Sacramento County",
+    "state": "California",
+    "country": "US",
+    "areas": [
+      "Sacramento Central",
+      "Sacramento Heights",
+      "California Gardens"
+    ],
+    "weight": 3
+  },
+  {
+    "postalCode": "16748",
+    "city": "San Diego",
+    "district": "San Diego County",
+    "state": "California",
+    "country": "US",
+    "areas": [
+      "San Diego Central",
+      "San Diego Heights",
+      "California Gardens"
+    ],
+    "weight": 2
+  },
+  {
+    "postalCode": "16921",
+    "city": "San Jose",
+    "district": "Santa Clara County",
+    "state": "California",
+    "country": "US",
+    "areas": [
+      "San Jose Central",
+      "Santa Clara Heights",
+      "California Gardens"
+    ],
+    "weight": 5
+  },
+  {
+    "postalCode": "17094",
+    "city": "Albuquerque",
+    "district": "Bernalillo County",
+    "state": "New Mexico",
+    "country": "US",
+    "areas": [
+      "Albuquerque Central",
+      "Bernalillo Heights",
+      "New Gardens"
+    ],
+    "weight": 4
+  },
+  {
+    "postalCode": "17267",
+    "city": "Oklahoma City",
+    "district": "Oklahoma County",
+    "state": "Oklahoma",
+    "country": "US",
+    "areas": [
+      "Oklahoma City Central",
+      "Oklahoma Heights",
+      "Oklahoma Gardens"
+    ],
+    "weight": 3
+  },
+  {
+    "postalCode": "17440",
+    "city": "Tulsa",
+    "district": "Tulsa County",
+    "state": "Oklahoma",
+    "country": "US",
+    "areas": [
+      "Tulsa Central",
+      "Tulsa Heights",
+      "Oklahoma Gardens"
+    ],
+    "weight": 2
+  },
+  {
+    "postalCode": "17613",
+    "city": "Birmingham",
+    "district": "Jefferson County",
+    "state": "Alabama",
+    "country": "US",
+    "areas": [
+      "Birmingham Central",
+      "Jefferson Heights",
+      "Alabama Gardens"
+    ],
+    "weight": 5
+  },
+  {
+    "postalCode": "17786",
+    "city": "Memphis",
+    "district": "Shelby County",
+    "state": "Tennessee",
+    "country": "US",
+    "areas": [
+      "Memphis Central",
+      "Shelby Heights",
+      "Tennessee Gardens"
+    ],
+    "weight": 4
+  },
+  {
+    "postalCode": "17959",
+    "city": "Buffalo",
+    "district": "Erie County",
+    "state": "New York",
+    "country": "US",
+    "areas": [
+      "Buffalo Central",
+      "Erie Heights",
+      "New Gardens"
+    ],
+    "weight": 3
+  },
+  {
+    "postalCode": "18132",
+    "city": "Rochester",
+    "district": "Monroe County",
+    "state": "New York",
+    "country": "US",
+    "areas": [
+      "Rochester Central",
+      "Monroe Heights",
+      "New Gardens"
+    ],
+    "weight": 2
+  },
+  {
+    "postalCode": "18305",
+    "city": "Providence",
+    "district": "Providence County",
+    "state": "Rhode Island",
+    "country": "US",
+    "areas": [
+      "Providence Central",
+      "Providence Heights",
+      "Rhode Gardens"
+    ],
+    "weight": 5
+  },
+  {
+    "postalCode": "18478",
+    "city": "Hartford",
+    "district": "Hartford County",
+    "state": "Connecticut",
+    "country": "US",
+    "areas": [
+      "Hartford Central",
+      "Hartford Heights",
+      "Connecticut Gardens"
+    ],
+    "weight": 4
+  }
+]
