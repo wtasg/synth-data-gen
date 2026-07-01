@@ -1,4 +1,5 @@
 import { useMemo, useState } from "react";
+import { Badge, Button, Card, FormInput, FormLabel } from "@wtasnorg/ui";
 
 import { generateBatch } from "../api";
 import { downloadText, recordsToCsv } from "../export";
@@ -65,16 +66,17 @@ export function BatchBuilderPanel({ generators }: Props) {
                     <p>Select generators, choose a record count, then generate a random dataset in one request.</p>
                 </div>
                 <div className="stat-row">
-                    <div className="stat-pill"><strong>{selected.length}</strong><span>fields</span></div>
-                    <div className="stat-pill"><strong>{count || 0}</strong><span>records</span></div>
+                    <Badge className="stat-pill"><strong>{selected.length}</strong><span>fields</span></Badge>
+                    <Badge className="stat-pill"><strong>{count || 0}</strong><span>records</span></Badge>
                 </div>
             </div>
 
             <div className="panel-grid">
-                <div className="card form-card">
-                    <label className="field count-field">
-                        <span>Record Count</span>
-                        <input
+                <Card className="card form-card">
+                    <div className="field count-field">
+                        <FormLabel htmlFor="record-count">Record Count</FormLabel>
+                        <FormInput
+                            id="record-count"
                             aria-label="Record Count"
                             type="number"
                             min="1"
@@ -82,14 +84,14 @@ export function BatchBuilderPanel({ generators }: Props) {
                             value={count}
                             onChange={(event) => setCount(event.target.value)}
                         />
-                    </label>
+                    </div>
 
                     <div className="checkbox-grid">
                         {sortedGenerators.map((generator) => {
                             const checked = selected.includes(generator.id);
                             return (
                                 <label key={generator.id} className={`choice-card ${checked ? "selected" : ""}`}>
-                                    <input
+                                    <FormInput
                                         aria-label={generator.label}
                                         type="checkbox"
                                         checked={checked}
@@ -105,22 +107,24 @@ export function BatchBuilderPanel({ generators }: Props) {
                     </div>
 
                     <div className="actions">
-                        <button className="button primary" type="button" onClick={handleGenerate} disabled={loading}>{loading ? "Generating..." : "Generate Dataset"}</button>
+                        <Button className="button primary" type="button" onClick={handleGenerate} disabled={loading} loading={loading}>
+                            Generate Dataset
+                        </Button>
                     </div>
 
                     {error ? <div className="banner error">{error}</div> : null}
-                </div>
+                </Card>
 
-                <div className="card output-card">
+                <Card className="card output-card">
                     <div className="output-header">
                         <h3>Generated Records</h3>
                         <div className="header-actions compact-actions">
-                            <button className="button secondary" type="button" onClick={exportJson} disabled={!result}>Export JSON</button>
-                            <button className="button secondary" type="button" onClick={exportCsv} disabled={!result}>Export CSV</button>
+                            <Button className="button secondary" type="button" onClick={exportJson} disabled={!result}>Export JSON</Button>
+                            <Button className="button secondary" type="button" onClick={exportCsv} disabled={!result}>Export CSV</Button>
                         </div>
                     </div>
                     <pre>{JSON.stringify(result ?? { count: Number(count || 0), selected, records: [] }, null, 2)}</pre>
-                </div>
+                </Card>
             </div>
         </section>
     );

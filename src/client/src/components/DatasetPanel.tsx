@@ -1,4 +1,5 @@
 import { useEffect, useMemo, useState } from "react";
+import { Button, Card, FormInput, SubmitButton } from "@wtasnorg/ui";
 
 import { createDatasetEntry, deleteDatasetEntry, exportDataset, fetchDataset, importDataset, updateDatasetEntry } from "../api";
 import { downloadBlob } from "../export";
@@ -160,20 +161,20 @@ export function DatasetPanel({ definition, refreshToken, onMutated }: Props) {
                     <p>{definition.description}</p>
                 </div>
                 <div className="header-actions">
-                    <button className="button secondary" type="button" onClick={startCreate}>New Entry</button>
-                    <button className="button secondary" type="button" onClick={() => handleExport("json")}>Export JSON</button>
-                    <button className="button secondary" type="button" onClick={() => handleExport("csv")}>Export CSV</button>
+                    <Button className="button secondary" type="button" onClick={startCreate}>New Entry</Button>
+                    <Button className="button secondary" type="button" onClick={() => handleExport("json")}>Export JSON</Button>
+                    <Button className="button secondary" type="button" onClick={() => handleExport("csv")}>Export CSV</Button>
                     <label className="button secondary file-button">
                         Import JSON
-                        <input type="file" accept="application/json" onChange={handleImport} />
+                        <FormInput type="file" accept="application/json" onChange={handleImport} />
                     </label>
                 </div>
             </div>
 
             <div className="panel-grid dataset-grid">
-                <div className="card dataset-list-card">
+                <Card className="card dataset-list-card">
                     <div className="list-toolbar">
-                        <input
+                        <FormInput
                             type="search"
                             placeholder="Search entries"
                             value={search}
@@ -200,38 +201,40 @@ export function DatasetPanel({ definition, refreshToken, onMutated }: Props) {
                                             ? <td>{String(entry)}</td>
                                             : definition.fields.slice(0, 4).map((field) => <td key={field.name}>{renderCell(entry, field.name)}</td>)}
                                         <td className="row-actions">
-                                            <button className="button tertiary" type="button" onClick={() => startEdit(entry, index)}>Edit</button>
-                                            <button className="button tertiary danger" type="button" onClick={() => handleDelete(index)}>Delete</button>
+                                            <Button className="button tertiary" type="button" onClick={() => startEdit(entry, index)}>Edit</Button>
+                                            <Button className="button tertiary danger" type="button" onClick={() => handleDelete(index)}>Delete</Button>
                                         </td>
                                     </tr>
                                 ))}
                             </tbody>
                         </table>
                     </div>
-                </div>
+                </Card>
 
-                <form className="card form-card" onSubmit={handleSave}>
-                    <div className="panel-subheader">
-                        <h3>{selectedIndex === null ? "Create Entry" : `Edit Entry #${selectedIndex}`}</h3>
-                        {loading ? <span className="muted">Working...</span> : null}
-                    </div>
-                    <div className="field-grid">
-                        {definition.fields.map((field) => (
-                            <FieldInput
-                                key={field.name}
-                                field={field}
-                                value={values[field.name]}
-                                onChange={(name, value) => setValues((current) => ({ ...current, [name]: value }))}
-                            />
-                        ))}
-                    </div>
-                    <div className="actions">
-                        <button className="button primary" type="submit">{selectedIndex === null ? "Create" : "Save"}</button>
-                        <button className="button secondary" type="button" onClick={startCreate}>Clear</button>
-                    </div>
-                    {status ? <div className="banner success">{status}</div> : null}
-                    {error ? <div className="banner error">{error}</div> : null}
-                </form>
+                <Card className="card form-card">
+                    <form onSubmit={handleSave}>
+                        <div className="panel-subheader">
+                            <h3>{selectedIndex === null ? "Create Entry" : `Edit Entry #${selectedIndex}`}</h3>
+                            {loading ? <span className="muted">Working...</span> : null}
+                        </div>
+                        <div className="field-grid">
+                            {definition.fields.map((field) => (
+                                <FieldInput
+                                    key={field.name}
+                                    field={field}
+                                    value={values[field.name]}
+                                    onChange={(name, value) => setValues((current) => ({ ...current, [name]: value }))}
+                                />
+                            ))}
+                        </div>
+                        <div className="actions">
+                            <SubmitButton className="button primary">{selectedIndex === null ? "Create" : "Save"}</SubmitButton>
+                            <Button className="button secondary" type="button" onClick={startCreate}>Clear</Button>
+                        </div>
+                        {status ? <div className="banner success">{status}</div> : null}
+                        {error ? <div className="banner error">{error}</div> : null}
+                    </form>
+                </Card>
             </div>
         </section>
     );

@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { Button, Card } from "@wtasnorg/ui";
 
 import { fetchDatasetList, fetchMeta } from "./api";
 import { BatchBuilderPanel } from "./components/BatchBuilderPanel";
@@ -58,41 +59,41 @@ export default function App() {
                         <p className="eyebrow">Fake Data Studio</p>
                         <h1>Faked</h1>
                     </div>
-                    <button className="button secondary small" type="button" onClick={() => setTheme((current) => current === "dark" ? "light" : "dark")}>
+                    <Button className="button secondary small" type="button" onClick={() => setTheme((current) => current === "dark" ? "light" : "dark")}>
                         {theme === "dark" ? "Light" : "Dark"}
-                    </button>
+                    </Button>
                 </div>
 
                 <nav className="nav-section">
                     <p className="nav-label">Builders</p>
-                    <button
+                    <Button
                         className={`nav-item ${selection?.kind === "builder" ? "active" : ""}`}
                         type="button"
                         onClick={() => setSelection({ kind: "builder", id: "batch" })}
                     >
                         <span>Record Builder</span>
                         <strong>Batch</strong>
-                    </button>
+                    </Button>
                 </nav>
 
                 <nav className="nav-section">
                     <p className="nav-label">Generators</p>
                     {meta?.generators.map((generator) => (
-                        <button
+                        <Button
                             key={generator.id}
                             className={`nav-item ${selection?.kind === "generator" && selection.id === generator.id ? "active" : ""}`}
                             type="button"
                             onClick={() => setSelection({ kind: "generator", id: generator.id })}
                         >
                             <span>{generator.label}</span>
-                        </button>
+                        </Button>
                     ))}
                 </nav>
 
                 <nav className="nav-section">
                     <p className="nav-label">Datasets</p>
                     {meta?.datasets.map((dataset) => (
-                        <button
+                        <Button
                             key={dataset.id}
                             className={`nav-item ${selection?.kind === "dataset" && selection.id === dataset.id ? "active" : ""}`}
                             type="button"
@@ -100,13 +101,13 @@ export default function App() {
                         >
                             <span>{dataset.label}</span>
                             <strong>{datasetStats[dataset.id]?.count ?? 0}</strong>
-                        </button>
+                        </Button>
                     ))}
                 </nav>
             </aside>
 
             <main className="main-content">
-                {loading ? <div className="card hero-card"><p>Loading metadata...</p></div> : null}
+                {loading ? <Card className="card hero-card"><p>Loading metadata...</p></Card> : null}
                 {error ? <div className="banner error standalone">{error}</div> : null}
                 {!loading && !error && selection?.kind === "builder" && meta ? <BatchBuilderPanel generators={meta.generators} /> : null}
                 {!loading && !error && selectedGenerator ? <GeneratorPanel definition={selectedGenerator} /> : null}

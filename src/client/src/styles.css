@@ -123,6 +123,12 @@ select {
     cursor: pointer;
 }
 
+.nav-item > span {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
 .nav-item.active,
 .nav-item:hover,
 .button:hover {
@@ -194,6 +200,10 @@ select {
 
 .field-checkbox {
     align-content: center;
+}
+
+.field label {
+    color: var(--text);
 }
 
 .field-checkbox input {

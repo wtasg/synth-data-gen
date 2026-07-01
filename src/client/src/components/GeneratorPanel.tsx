@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { Button, Card, SubmitButton } from "@wtasnorg/ui";
 
 import { generate } from "../api";
 import { blankValues, buildPayload, flattenObject, type FormValues } from "../forms";
@@ -48,36 +49,38 @@ export function GeneratorPanel({ definition }: Props) {
             </div>
 
             <div className="panel-grid">
-                <form className="card form-card" onSubmit={handleSubmit}>
-                    <div className="field-grid">
-                        {definition.fields.map((field) => (
-                            <FieldInput
-                                key={field.name}
-                                field={field}
-                                value={values[field.name]}
-                                onChange={(name, value) => setValues((current) => ({ ...current, [name]: value }))}
-                            />
-                        ))}
-                    </div>
-                    <div className="actions">
-                        <button className="button primary" type="submit" disabled={loading}>{loading ? "Generating..." : "Generate"}</button>
-                        <button
-                            className="button secondary"
-                            type="button"
-                            onClick={() => setValues({ ...blankValues(definition.fields), ...flattenObject(definition.exampleRequest) })}
-                        >
-                            Reset
-                        </button>
-                    </div>
-                    {error ? <div className="banner error">{error}</div> : null}
-                </form>
+                <Card className="card form-card">
+                    <form onSubmit={handleSubmit}>
+                        <div className="field-grid">
+                            {definition.fields.map((field) => (
+                                <FieldInput
+                                    key={field.name}
+                                    field={field}
+                                    value={values[field.name]}
+                                    onChange={(name, value) => setValues((current) => ({ ...current, [name]: value }))}
+                                />
+                            ))}
+                        </div>
+                        <div className="actions">
+                            <SubmitButton className="button primary" loading={loading} loadingLabel="Generating...">Generate</SubmitButton>
+                            <Button
+                                className="button secondary"
+                                type="button"
+                                onClick={() => setValues({ ...blankValues(definition.fields), ...flattenObject(definition.exampleRequest) })}
+                            >
+                                Reset
+                            </Button>
+                        </div>
+                        {error ? <div className="banner error">{error}</div> : null}
+                    </form>
+                </Card>
 
-                <div className="card output-card">
+                <Card className="card output-card">
                     <div className="output-header">
                         <h3>Response</h3>
                     </div>
                     <pre>{response || JSON.stringify(definition.exampleRequest, null, 2)}</pre>
-                </div>
+                </Card>
             </div>
         </section>
     );
