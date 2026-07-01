@@ -219,7 +219,7 @@ deno task lint
 Use Docker Compose to run both services with the same `.env` file:
 
 ```sh
-docker compose up --build
+docker compose --file docker-compose.yml up --build --detach
 ```
 
 This starts:
