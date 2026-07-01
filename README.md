@@ -1,4 +1,6 @@
-# faked
+# synth-data-gen
+
+Synthetic Data Generator
 
 Dependency-free fake data generation service built with Deno and TypeScript.
 
